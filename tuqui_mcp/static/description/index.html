@@ -34,7 +34,7 @@
         Connect your Odoo over MCP.<br/><em style="font-style:italic;color:#FEA912;">Free.</em>
       </h1>
       <p style="font-size:17px;line-height:1.6;color:rgba(255,255,255,.7);max-width:580px;margin:0 auto 16px;">
-        The free module that enables your Odoo's <strong style="color:#fff;font-weight:600;">OAuth</strong> connection so Claude, ChatGPT, Cursor or any MCP client can access your data.
+        Tuqui connects Claude, ChatGPT, Cursor or any MCP client to your Odoo over <strong style="color:#fff;font-weight:600;">OAuth</strong>. This free module is optional: Tuqui works without it.
       </p>
       <p style="font-size:14px;line-height:1.6;color:rgba(255,255,255,.5);max-width:540px;margin:0 auto 38px;">
         <strong style="color:rgba(255,255,255,.7);">Data-only</strong> — installs no Python code and changes nothing in your database. Works on Odoo Online, Odoo.sh and On-Premise.
@@ -71,16 +71,16 @@
 <section style="background-color:#F7F6F3;padding:76px 0;">
   <div style="max-width:760px;margin:0 auto;padding:0 32px;">
     <div style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#3F5E4E;text-align:center;margin-bottom:10px;">What this module does</div>
-    <h2 style="font-family:Georgia,serif;font-weight:500;font-size:44px;letter-spacing:-.01em;line-height:1.1;color:#0A0A0A;text-align:center;margin:0 0 18px;">The <em style="font-style:italic;color:#FEA912;">OAuth</em> bridge between your Odoo and AI</h2>
+    <h2 style="font-family:Georgia,serif;font-weight:500;font-size:44px;letter-spacing:-.01em;line-height:1.1;color:#0A0A0A;text-align:center;margin:0 0 18px;">An <em style="font-style:italic;color:#FEA912;">optional</em> module, with no code</h2>
     <p style="font-size:15.5px;line-height:1.65;color:#525251;text-align:center;max-width:56ch;margin:0 auto 34px;">
-      <strong>tuqui_mcp</strong> registers the parameters your Odoo needs to authorize Tuqui's access over MCP. It is <strong>data-only</strong>: no Python code, no model changes. Install it, finish the connection at tuqui.com, and your Odoo is ready to talk to any AI assistant.
+      Tuqui is a hosted MCP server: you connect your Odoo at tuqui.com and nothing gets installed on your server. <strong>tuqui_mcp</strong> is optional. It is <strong>data-only</strong>: no Python code, no model changes. It only stores Tuqui's address in your system parameters.
     </p>
     <div class="row">
       <div class="col-12 col-md-4" style="padding:9px;">
         <div style="background-color:#fff;border-radius:18px;border:.5px solid rgba(63,94,78,.16);padding:24px;text-align:center;">
           <div style="font-size:26px;margin-bottom:10px;">🆓</div>
           <p style="font-size:14px;font-weight:600;margin:0 0 6px;">100% free</p>
-          <p style="font-size:12.5px;color:#525251;line-height:1.55;margin:0;">The module has no cost. Just create your account at tuqui.com to activate the connection.</p>
+          <p style="font-size:12.5px;color:#525251;line-height:1.55;margin:0;">The module has no cost. Your account at tuqui.com is what connects your Odoo.</p>
         </div>
       </div>
       <div class="col-12 col-md-4" style="padding:9px;">
@@ -92,9 +92,9 @@
       </div>
       <div class="col-12 col-md-4" style="padding:9px;">
         <div style="background-color:#fff;border-radius:18px;border:.5px solid rgba(63,94,78,.16);padding:24px;text-align:center;">
-          <div style="font-size:26px;margin-bottom:10px;">🔑</div>
-          <p style="font-size:14px;font-weight:600;margin:0 0 6px;">OAuth connection</p>
-          <p style="font-size:12.5px;color:#525251;line-height:1.55;margin:0;">Standard OAuth 2.0 authorization. You control access and revoke it whenever you want.</p>
+          <div style="font-size:26px;margin-bottom:10px;">🧩</div>
+          <p style="font-size:14px;font-weight:600;margin:0 0 6px;">Optional</p>
+          <p style="font-size:12.5px;color:#525251;line-height:1.55;margin:0;">Tuqui connects without it. Installed or not, your Odoo works the same.</p>
         </div>
       </div>
     </div>
@@ -113,15 +113,15 @@
         <div class="col-12 col-md-4" style="padding:9px;">
           <div style="background-color:#fff;border-radius:18px;border:.5px solid rgba(63,94,78,.16);padding:24px;">
             <div style="font-family:Georgia,serif;font-size:54px;font-weight:500;line-height:1;color:rgba(10,10,10,.1);margin-bottom:12px;">01</div>
-            <h3 style="font-family:Georgia,serif;font-size:20px;font-weight:500;margin:0 0 10px;line-height:1.3;">Install this module</h3>
-            <p style="font-size:13px;color:#525251;line-height:1.6;margin:0;">From Odoo Apps. It automatically registers Tuqui's connection parameters in your system.</p>
+            <h3 style="font-family:Georgia,serif;font-size:20px;font-weight:500;margin:0 0 10px;line-height:1.3;">Create your workspace</h3>
+            <p style="font-size:13px;color:#525251;line-height:1.6;margin:0;">Sign up at tuqui.com and connect your Odoo. An admin user does it in a few steps, with nothing to install.</p>
           </div>
         </div>
         <div class="col-12 col-md-4" style="padding:9px;">
           <div style="background-color:#fff;border-radius:18px;border:.5px solid rgba(63,94,78,.16);padding:24px;">
             <div style="font-family:Georgia,serif;font-size:54px;font-weight:500;line-height:1;color:rgba(10,10,10,.1);margin-bottom:12px;">02</div>
-            <h3 style="font-family:Georgia,serif;font-size:20px;font-weight:500;margin:0 0 10px;line-height:1.3;">Authorize via OAuth</h3>
-            <p style="font-size:13px;color:#525251;line-height:1.6;margin:0;">Create your workspace at tuqui.com and authorize access to your Odoo in a couple of clicks.</p>
+            <h3 style="font-family:Georgia,serif;font-size:20px;font-weight:500;margin:0 0 10px;line-height:1.3;">Add the connector</h3>
+            <p style="font-size:13px;color:#525251;line-height:1.6;margin:0;">Add your workspace address as a custom connector in Claude, ChatGPT or Cursor, and sign in with OAuth.</p>
           </div>
         </div>
         <div class="col-12 col-md-4" style="padding:9px;">
