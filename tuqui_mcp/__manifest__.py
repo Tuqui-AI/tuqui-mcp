@@ -3,10 +3,11 @@
     "version": "19.0.1.1.0",
     "category": "Productivity",
     "summary": (
-        "Tuqui connects your Odoo to Claude, ChatGPT, Cursor and any MCP client via the Model "
-        "Context Protocol, with nothing to install. This free module is optional and data-only — "
-        "no Python, no dependencies — and works on Odoo Online, Odoo.sh and On-Premise. "
-        "Standard OAuth 2.0: you control access and revoke it whenever you want."
+        "Tuqui is a hosted MCP server for Odoo: connect your database at tuqui.com and ask "
+        "Claude, ChatGPT, Cursor or any MCP client about your sales, stock or invoices, with "
+        "answers from your real data. The connection is made at tuqui.com and needs no code in "
+        "Odoo; works on Odoo Online, Odoo.sh and On-Premise. Standard OAuth 2.0, within each "
+        "user's permissions."
     ),
     "author": "Tuqui-AI",
     "website": "https://tuqui.com",
